@@ -1,11 +1,11 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
-import '../styles/global.scss'
 import WelcomeSection from "../subsections/Welcome";
 import AboutMeSection from "../subsections/AboutMe";
 import ContactMeSection from "../subsections/ContactMe";
 import ExperienceSection from "../subsections/Experience";
 import ProjectSection from "../subsections/Projects";
+import "../styles/global.css"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
